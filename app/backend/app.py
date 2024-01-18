@@ -328,6 +328,8 @@ async def setup_clients():
         query_speller=AZURE_SEARCH_QUERY_SPELLER,
     )
 
+    
+    """
     if USE_GPT4V:
         if vision_key is None:
             raise ValueError("Vision key must be set (in Key Vault) to use the vision approach.")
@@ -364,7 +366,7 @@ async def setup_clients():
             content_field=KB_FIELDS_CONTENT,
             query_language=AZURE_SEARCH_QUERY_LANGUAGE,
             query_speller=AZURE_SEARCH_QUERY_SPELLER,
-        )
+        )"""
 
     current_app.config[CONFIG_CHAT_APPROACH] = ChatReadRetrieveReadApproach(
         search_client=search_client,

@@ -25,10 +25,10 @@ if [ -n "$AZURE_USE_AUTHENTICATION" ]; then
   aclArg="--useacls"
 fi
 
-visionEndpointArg=""
-if [ -n "$AZURE_VISION_ENDPOINT" ]; then
-  visionEndpointArg="--visionendpoint $AZURE_VISION_ENDPOINT"
-fi
+#visionEndpointArg=""
+#if [ -n "$AZURE_VISION_ENDPOINT" ]; then
+#  visionEndpointArg="--visionendpoint $AZURE_VISION_ENDPOINT"
+#fi
 
 visionKeyArg=""
 if [ -n "$AZURE_VISION_KEY" ]; then

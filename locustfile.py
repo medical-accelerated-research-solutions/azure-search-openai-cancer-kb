@@ -18,10 +18,10 @@ class ChatUser(HttpUser):
                     {
                         "content": random.choice(
                             [
-                                "What is included in my Northwind Health Plus plan that is not in standard?",
-                                "What does a Product Manager do?",
-                                "What happens in a performance review?",
-                                "Whats your whistleblower policy?",
+                                "What is lung cancer?",
+                                "What is recent research progress in lung cancer?",
+                                "Is there any hot popular biomarker for lung cancer?",
+                                "How many articles are published in 2023 about lung cancer?",
                             ]
                         ),
                         "role": "user",

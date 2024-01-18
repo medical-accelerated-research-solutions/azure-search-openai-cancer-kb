@@ -28,9 +28,11 @@ if ($env:AZURE_USE_AUTHENTICATION) {
 if ($env:AZURE_SEARCH_ANALYZER_NAME) {
   $searchAnalyzerNameArg = "--searchanalyzername $env:AZURE_SEARCH_ANALYZER_NAME"
 }
-if ($env:AZURE_VISION_ENDPOINT) {
-  $visionEndpointArg = "--visionendpoint $env:AZURE_VISION_ENDPOINT"
-}
+#
+#if ($env:AZURE_VISION_ENDPOINT) {
+#  $visionEndpointArg = "--visionendpoint $env:AZURE_VISION_ENDPOINT"
+#}
+
 if ($env:AZURE_VISION_KEY) {
   $visionKeyArg = "--visionkey $env:AZURE_VISION_KEY"
 }
